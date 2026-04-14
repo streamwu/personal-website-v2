@@ -4,6 +4,7 @@ export interface Project {
   year?: string;
   link?: string;
   tags?: string[];
+  embedLink?: string;
 }
 
 export interface Publication {
@@ -111,6 +112,21 @@ export const personalData = {
           year: "2023-Present",
           link: "https://github.com/ideality-refracted",
           tags: ["Web Dev", "LLM Agents", "Automation"]
+        }
+      ]
+    },
+    interactive: {
+      title: "Interactive Philosophy",
+      subtitle: "Fun Projects",
+      description: "Building interactive experiences that bring philosophical concepts to life through technology.",
+      projects: [
+        {
+          title: "Interactive Philosophy App",
+          description: "A technology powered philosophy app developed by Xihui on behalf of Ideality Refracted. This interactive tool brings philosophical inquiry to your fingertips.",
+          year: "2025",
+          link: "https://ais-pre-m4rlrxlm44wkzo4g7m4b56-266718637431.us-west2.run.app",
+          embedLink: "https://ais-pre-m4rlrxlm44wkzo4g7m4b56-266718637431.us-west2.run.app",
+          tags: ["AI", "Philosophy", "Interactive"]
         }
       ]
     },

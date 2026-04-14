@@ -28,6 +28,10 @@ export default function App() {
         <div className="section-divider" />
         
         <Section id="cross" data={personalData.sections.cross} />
+        
+        <div className="section-divider" />
+        
+        <Section id="interactive" data={personalData.sections.interactive} />
 
         <div className="section-divider" />
         

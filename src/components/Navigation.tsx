@@ -15,7 +15,7 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["tech", "philosophy", "cross", "personal"];
+      const sections = ["tech", "philosophy", "cross", "interactive", "personal"];
       const current = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -34,7 +34,8 @@ export default function Navigation() {
   const navItems = [
     { id: "tech", label: "AI & Tech" },
     { id: "philosophy", label: "Academic Philosophy" },
-    { id: "cross", label: "NGO - Ideality Refracted" },
+    { id: "cross", label: "NGO" },
+    { id: "interactive", label: "Fun Projects" },
     { id: "personal", label: "Life & Art" },
   ];
 

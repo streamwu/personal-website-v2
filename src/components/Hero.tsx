@@ -67,6 +67,14 @@ export default function Hero() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => document.getElementById('interactive')?.scrollIntoView({ behavior: 'smooth' })}
+                className="px-8 py-4 border border-black/10 rounded-full font-medium hover:bg-black/5 transition-colors"
+              >
+                Fun Projects
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
                 onClick={() => document.getElementById('personal')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-8 py-4 border border-black/10 rounded-full font-medium hover:bg-black/5 transition-colors"
               >

@@ -42,7 +42,9 @@ export default function Section({ data, id }: SectionProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           {data.projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
+            <div key={index}>
+              <ProjectCard project={project} />
+            </div>
           ))}
         </div>
 
