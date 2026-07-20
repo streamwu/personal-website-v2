@@ -83,13 +83,13 @@ export const personalData = {
           year: "2026"
         },
         {
-          title: "A Critique of Functionalist Frameworks",
+          title: "Functionalism, Ontology, and Linguistic Practice",
           description: "Manuscript currently under review at a peer-reviewed journal.",
           year: "2026"
         },
         {
           title: "The Ontology of AI as an Artifact",
-          description: "In preparation; expanding on work originally presented at the San Jose State University Philosophy Alumni Conference.",
+          description: "Manuscript currently under review at a peer-reviewed journal; expanding on work originally presented at the San Jose State University Philosophy Alumni Conference.",
           year: "2026"
         }
       ]
